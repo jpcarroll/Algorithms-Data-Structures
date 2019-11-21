@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 	int queens = atoi(argv[1]);
 
 	//get number of solutions
-	int numSolutions = NQueens(queens);
+	int numSolutions = nQueens(queens);
 
 	//print solutions
 	cout << "There are " << numSolutions << " solutions to the " << queens << "-Queens Problem" << endl;
